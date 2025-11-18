@@ -3,11 +3,8 @@ package ui
 import io.qameta.allure.Step
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.edge.EdgeDriver
-import org.openqa.selenium.edge.EdgeOptions
 import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.firefox.FirefoxOptions
 import org.openqa.selenium.support.ui.ExpectedConditions
 import org.openqa.selenium.support.ui.WebDriverWait
 import org.testng.annotations.DataProvider
@@ -29,9 +26,9 @@ object DriverDataProviders {
 @Step("Получить вебдрайвер для теста в зависимости от типа браузера")
 fun getWebDriverForTest(driverType: DriverType): WebDriver {
     val webDriver: WebDriver = when (driverType) {
-        DriverType.CHROME -> ChromeDriver(ChromeOptions().addArguments("--headless"))
-        DriverType.FIREFOX -> FirefoxDriver(FirefoxOptions().addArguments("--headless"))
-        DriverType.EDGE -> EdgeDriver(EdgeOptions().addArguments("--headless"))
+        DriverType.CHROME -> ChromeDriver()
+        DriverType.FIREFOX -> FirefoxDriver()
+        DriverType.EDGE -> EdgeDriver()
     }
     webDriver.manage().window().maximize()
     return webDriver
