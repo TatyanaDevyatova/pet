@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="84" passed="84" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-11-18T17:28:06 GST" name="Surefire suite" finished-at="2025-11-18T17:32:19 GST" duration-ms="253101">
+    <groups>
+    </groups>
+    <test started-at="2025-11-18T17:28:06 GST" name="Surefire test" finished-at="2025-11-18T17:32:19 GST" duration-ms="253101">
+      <class name="api.GetTagsTests">
+        <test-method is-config="true" signature="setAll()[pri:0, instance:api.GetTagsTests@656d10a4]" started-at="2025-11-18T17:28:11 GST" name="setAll" finished-at="2025-11-18T17:28:11 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAll -->
+        <test-method signature="requestReturnTagList()[pri:0, instance:api.GetTagsTests@656d10a4]" started-at="2025-11-18T17:28:11 GST" name="requestReturnTagList" description="Успешное получение списка тэгов" finished-at="2025-11-18T17:28:11 GST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestReturnTagList -->
+      </class> <!-- api.GetTagsTests -->
+      <class name="ui.EditorPageNegativeTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:25 GST" name="setUp" finished-at="2025-11-18T17:28:25 GST" duration-ms="243" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutBody(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:25 GST" name="shouldBeDisplayedErrorWithoutBody" description="Если не введен текст статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:30 GST" duration-ms="4705" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutBody -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:30 GST" name="cleanUp" finished-at="2025-11-18T17:28:30 GST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:30 GST" name="setUp" finished-at="2025-11-18T17:28:30 GST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutBody(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:30 GST" name="shouldBeDisplayedErrorWithoutBody" description="Если не введен текст статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:34 GST" duration-ms="3901" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutBody -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:34 GST" name="cleanUp" finished-at="2025-11-18T17:28:35 GST" duration-ms="773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:35 GST" name="setUp" finished-at="2025-11-18T17:28:35 GST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutBody(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:35 GST" name="shouldBeDisplayedErrorWithoutBody" description="Если не введен текст статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:40 GST" duration-ms="4931" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutBody -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:40 GST" name="cleanUp" finished-at="2025-11-18T17:28:40 GST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:40 GST" name="setUp" finished-at="2025-11-18T17:28:41 GST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutDescription(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:41 GST" name="shouldBeDisplayedErrorWithoutDescription" description="Если не введено описание статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:45 GST" duration-ms="4783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutDescription -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:45 GST" name="cleanUp" finished-at="2025-11-18T17:28:45 GST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:45 GST" name="setUp" finished-at="2025-11-18T17:28:46 GST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutDescription(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:46 GST" name="shouldBeDisplayedErrorWithoutDescription" description="Если не введено описание статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:50 GST" duration-ms="3914" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutDescription -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:50 GST" name="cleanUp" finished-at="2025-11-18T17:28:50 GST" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:50 GST" name="setUp" finished-at="2025-11-18T17:28:51 GST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutDescription(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:51 GST" name="shouldBeDisplayedErrorWithoutDescription" description="Если не введено описание статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:28:55 GST" duration-ms="4919" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutDescription -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:55 GST" name="cleanUp" finished-at="2025-11-18T17:28:56 GST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:56 GST" name="setUp" finished-at="2025-11-18T17:28:56 GST" duration-ms="237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutTitle(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:28:56 GST" name="shouldBeDisplayedErrorWithoutTitle" description="Если не введен заголовок статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:29:01 GST" duration-ms="4762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:01 GST" name="cleanUp" finished-at="2025-11-18T17:29:01 GST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:01 GST" name="setUp" finished-at="2025-11-18T17:29:01 GST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutTitle(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:01 GST" name="shouldBeDisplayedErrorWithoutTitle" description="Если не введен заголовок статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:29:05 GST" duration-ms="3995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:05 GST" name="cleanUp" finished-at="2025-11-18T17:29:06 GST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:06 GST" name="setUp" finished-at="2025-11-18T17:29:06 GST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedErrorWithoutTitle(ui.DriverType)[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:06 GST" name="shouldBeDisplayedErrorWithoutTitle" description="Если не введен заголовок статьи, должна быть отображена ошибка" data-provider="driverData" finished-at="2025-11-18T17:29:11 GST" duration-ms="5028" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithoutTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPageNegativeTests@7a344b65]" started-at="2025-11-18T17:29:11 GST" name="cleanUp" finished-at="2025-11-18T17:29:11 GST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.EditorPageNegativeTests -->
+      <class name="api.PostLoginTests">
+        <test-method is-config="true" signature="setAll()[pri:0, instance:api.PostLoginTests@63ec445c]" started-at="2025-11-18T17:28:11 GST" name="setAll" finished-at="2025-11-18T17:28:11 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAll -->
+        <test-method signature="loginWithInvalidDataReturnsError(api.PostLoginBody)[pri:0, instance:api.PostLoginTests@63ec445c]" started-at="2025-11-18T17:28:11 GST" name="loginWithInvalidDataReturnsError" description="Авторизация с невалидными данными возвращает ошибку" data-provider="data" finished-at="2025-11-18T17:28:12 GST" duration-ms="355" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostLoginBody(user=PostLogin(email=karole.mosciski@hotmail.com, password=null))]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidDataReturnsError -->
+        <test-method signature="loginWithInvalidDataReturnsError(api.PostLoginBody)[pri:0, instance:api.PostLoginTests@63ec445c]" started-at="2025-11-18T17:28:12 GST" name="loginWithInvalidDataReturnsError" description="Авторизация с невалидными данными возвращает ошибку" data-provider="data" finished-at="2025-11-18T17:28:12 GST" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostLoginBody(user=PostLogin(email=null, password=pyfpk4hu6ceyf))]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidDataReturnsError -->
+        <test-method signature="loginWithValidDataReturnsOk()[pri:0, instance:api.PostLoginTests@63ec445c]" started-at="2025-11-18T17:28:12 GST" name="loginWithValidDataReturnsOk" description="Успешная авторизация с валидными данными" finished-at="2025-11-18T17:28:13 GST" duration-ms="497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithValidDataReturnsOk -->
+        <test-method signature="loginWithWrongDataReturnsError()[pri:0, instance:api.PostLoginTests@63ec445c]" started-at="2025-11-18T17:28:13 GST" name="loginWithWrongDataReturnsError" description="Авторизация с неверными данными возвращает ошибку" finished-at="2025-11-18T17:28:13 GST" duration-ms="242" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongDataReturnsError -->
+      </class> <!-- api.PostLoginTests -->
+      <class name="ui.SignUpPagePositiveTests">
+        <test-method signature="shouldBeDisplayedAllCommonSignUpPageElements(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:31:53 GST" name="shouldBeDisplayedAllCommonSignUpPageElements" description="На странице регистрации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:31:56 GST" duration-ms="2392" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignUpPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:31:56 GST" name="cleanUp" finished-at="2025-11-18T17:31:56 GST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonSignUpPageElements(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:31:56 GST" name="shouldBeDisplayedAllCommonSignUpPageElements" description="На странице регистрации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:31:58 GST" duration-ms="1906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignUpPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:31:58 GST" name="cleanUp" finished-at="2025-11-18T17:31:58 GST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonSignUpPageElements(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:31:58 GST" name="shouldBeDisplayedAllCommonSignUpPageElements" description="На странице регистрации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:32:01 GST" duration-ms="2505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignUpPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:01 GST" name="cleanUp" finished-at="2025-11-18T17:32:01 GST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnLoginLink(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:01 GST" name="shouldBeDisplayedSignInPageAfterClickOnLoginLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:32:03 GST" duration-ms="2428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnLoginLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:03 GST" name="cleanUp" finished-at="2025-11-18T17:32:03 GST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnLoginLink(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:03 GST" name="shouldBeDisplayedSignInPageAfterClickOnLoginLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:32:05 GST" duration-ms="2074" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnLoginLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:05 GST" name="cleanUp" finished-at="2025-11-18T17:32:06 GST" duration-ms="703" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnLoginLink(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:06 GST" name="shouldBeDisplayedSignInPageAfterClickOnLoginLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:32:09 GST" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnLoginLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:09 GST" name="cleanUp" finished-at="2025-11-18T17:32:09 GST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessRegistrationWithValidData(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:09 GST" name="shouldBeSuccessRegistrationWithValidData" description="После ввода валидных данных, должна быть произведена регистрация" data-provider="driverData" finished-at="2025-11-18T17:32:12 GST" duration-ms="3619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessRegistrationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:12 GST" name="cleanUp" finished-at="2025-11-18T17:32:12 GST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessRegistrationWithValidData(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:12 GST" name="shouldBeSuccessRegistrationWithValidData" description="После ввода валидных данных, должна быть произведена регистрация" data-provider="driverData" finished-at="2025-11-18T17:32:15 GST" duration-ms="2596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessRegistrationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:15 GST" name="cleanUp" finished-at="2025-11-18T17:32:16 GST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessRegistrationWithValidData(ui.DriverType)[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:16 GST" name="shouldBeSuccessRegistrationWithValidData" description="После ввода валидных данных, должна быть произведена регистрация" data-provider="driverData" finished-at="2025-11-18T17:32:19 GST" duration-ms="3608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessRegistrationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPagePositiveTests@3b08f438]" started-at="2025-11-18T17:32:19 GST" name="cleanUp" finished-at="2025-11-18T17:32:19 GST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.SignUpPagePositiveTests -->
+      <class name="ui.ArticlePagePositiveTests">
+        <test-method signature="shouldBeDisplayedAllCommonArticlePageElements(ui.DriverType)[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:14 GST" name="shouldBeDisplayedAllCommonArticlePageElements" description="На странице статьи должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:28:18 GST" duration-ms="3787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonArticlePageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:18 GST" name="cleanUp" finished-at="2025-11-18T17:28:18 GST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonArticlePageElements(ui.DriverType)[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:18 GST" name="shouldBeDisplayedAllCommonArticlePageElements" description="На странице статьи должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:28:21 GST" duration-ms="3125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonArticlePageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:21 GST" name="cleanUp" finished-at="2025-11-18T17:28:22 GST" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonArticlePageElements(ui.DriverType)[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:22 GST" name="shouldBeDisplayedAllCommonArticlePageElements" description="На странице статьи должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:28:25 GST" duration-ms="3546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonArticlePageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.ArticlePagePositiveTests@77d18d0b]" started-at="2025-11-18T17:28:25 GST" name="cleanUp" finished-at="2025-11-18T17:28:25 GST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.ArticlePagePositiveTests -->
+      <class name="api.GetArticleBySlugTests">
+        <test-method is-config="true" signature="setAll()[pri:0, instance:api.GetArticleBySlugTests@4af46df3]" started-at="2025-11-18T17:28:06 GST" name="setAll" finished-at="2025-11-18T17:28:06 GST" duration-ms="149" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAll -->
+        <test-method signature="requestWithValidSlugReturnArticleBySlug()[pri:0, instance:api.GetArticleBySlugTests@4af46df3]" started-at="2025-11-18T17:28:07 GST" name="requestWithValidSlugReturnArticleBySlug" description="Успешное получение статьи" finished-at="2025-11-18T17:28:10 GST" duration-ms="3984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestWithValidSlugReturnArticleBySlug -->
+        <test-method signature="requestWithWrongSlugReturnError()[pri:0, instance:api.GetArticleBySlugTests@4af46df3]" started-at="2025-11-18T17:28:11 GST" name="requestWithWrongSlugReturnError" description="Запрос с неверными данными возвращает ошибку" finished-at="2025-11-18T17:28:11 GST" duration-ms="350" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestWithWrongSlugReturnError -->
+      </class> <!-- api.GetArticleBySlugTests -->
+      <class name="ui.SignInPagePositiveTests">
+        <test-method signature="shouldBeDisplayedAllCommonSignInPageElements(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:03 GST" name="shouldBeDisplayedAllCommonSignInPageElements" description="На странице авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:31:05 GST" duration-ms="2361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignInPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:05 GST" name="cleanUp" finished-at="2025-11-18T17:31:05 GST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonSignInPageElements(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:05 GST" name="shouldBeDisplayedAllCommonSignInPageElements" description="На странице авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:31:08 GST" duration-ms="2265" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignInPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:08 GST" name="cleanUp" finished-at="2025-11-18T17:31:08 GST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonSignInPageElements(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:08 GST" name="shouldBeDisplayedAllCommonSignInPageElements" description="На странице авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:31:11 GST" duration-ms="2428" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonSignInPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:11 GST" name="cleanUp" finished-at="2025-11-18T17:31:11 GST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:11 GST" name="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:13 GST" duration-ms="2444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnRegisterLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:13 GST" name="cleanUp" finished-at="2025-11-18T17:31:13 GST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:13 GST" name="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:15 GST" duration-ms="1983" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnRegisterLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:15 GST" name="cleanUp" finished-at="2025-11-18T17:31:16 GST" duration-ms="644" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:16 GST" name="shouldBeDisplayedSignUpPageAfterClickOnRegisterLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:18 GST" duration-ms="2489" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnRegisterLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:18 GST" name="cleanUp" finished-at="2025-11-18T17:31:18 GST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessAuthorizationWithValidData(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:18 GST" name="shouldBeSuccessAuthorizationWithValidData" description="После ввода валидных данных должна быть произведена авторизация" data-provider="driverData" finished-at="2025-11-18T17:31:22 GST" duration-ms="3744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessAuthorizationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:22 GST" name="cleanUp" finished-at="2025-11-18T17:31:22 GST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessAuthorizationWithValidData(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:22 GST" name="shouldBeSuccessAuthorizationWithValidData" description="После ввода валидных данных должна быть произведена авторизация" data-provider="driverData" finished-at="2025-11-18T17:31:25 GST" duration-ms="2810" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessAuthorizationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:25 GST" name="cleanUp" finished-at="2025-11-18T17:31:26 GST" duration-ms="638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeSuccessAuthorizationWithValidData(ui.DriverType)[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:26 GST" name="shouldBeSuccessAuthorizationWithValidData" description="После ввода валидных данных должна быть произведена авторизация" data-provider="driverData" finished-at="2025-11-18T17:31:30 GST" duration-ms="3845" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessAuthorizationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPagePositiveTests@48b22fd4]" started-at="2025-11-18T17:31:30 GST" name="cleanUp" finished-at="2025-11-18T17:31:30 GST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.SignInPagePositiveTests -->
+      <class name="api.GetArticlesTests">
+        <test-method is-config="true" signature="setAll()[pri:0, instance:api.GetArticlesTests@2fc07784]" started-at="2025-11-18T17:28:11 GST" name="setAll" finished-at="2025-11-18T17:28:11 GST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAll -->
+        <test-method signature="requestReturnArticleList()[pri:0, instance:api.GetArticlesTests@2fc07784]" started-at="2025-11-18T17:28:11 GST" name="requestReturnArticleList" description="Успешное получение списка статей" finished-at="2025-11-18T17:28:11 GST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requestReturnArticleList -->
+      </class> <!-- api.GetArticlesTests -->
+      <class name="ui.SignInPageNegativeTests">
+        <test-method signature="shouldBeDisplayedErrorWithInvalidData(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:37 GST" name="shouldBeDisplayedErrorWithInvalidData" description="Если неверные данные, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:41 GST" duration-ms="3505" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithInvalidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:41 GST" name="cleanUp" finished-at="2025-11-18T17:30:41 GST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedErrorWithInvalidData(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:41 GST" name="shouldBeDisplayedErrorWithInvalidData" description="Если неверные данные, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:43 GST" duration-ms="2592" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithInvalidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:43 GST" name="cleanUp" finished-at="2025-11-18T17:30:44 GST" duration-ms="660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedErrorWithInvalidData(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:44 GST" name="shouldBeDisplayedErrorWithInvalidData" description="Если неверные данные, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:48 GST" duration-ms="3522" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedErrorWithInvalidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:48 GST" name="cleanUp" finished-at="2025-11-18T17:30:48 GST" duration-ms="101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:48 GST" name="shouldNotBeEnabledSignInButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:50 GST" duration-ms="2380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:50 GST" name="cleanUp" finished-at="2025-11-18T17:30:50 GST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:50 GST" name="shouldNotBeEnabledSignInButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:52 GST" duration-ms="2120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:52 GST" name="cleanUp" finished-at="2025-11-18T17:30:53 GST" duration-ms="619" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:53 GST" name="shouldNotBeEnabledSignInButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:55 GST" duration-ms="2479" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:55 GST" name="cleanUp" finished-at="2025-11-18T17:30:55 GST" duration-ms="72" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:55 GST" name="shouldNotBeEnabledSignInButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:58 GST" duration-ms="2397" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:58 GST" name="cleanUp" finished-at="2025-11-18T17:30:58 GST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:30:58 GST" name="shouldNotBeEnabledSignInButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:31:00 GST" duration-ms="1871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:31:00 GST" name="cleanUp" finished-at="2025-11-18T17:31:00 GST" duration-ms="636" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignInButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:31:00 GST" name="shouldNotBeEnabledSignInButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка авторизации" data-provider="driverData" finished-at="2025-11-18T17:31:03 GST" duration-ms="2418" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignInButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignInPageNegativeTests@108531c2]" started-at="2025-11-18T17:31:03 GST" name="cleanUp" finished-at="2025-11-18T17:31:03 GST" duration-ms="67" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.SignInPageNegativeTests -->
+      <class name="ui.EditorPagePositiveTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:11 GST" name="setUp" finished-at="2025-11-18T17:29:11 GST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedAllCommonEditorPageElements(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:11 GST" name="shouldBeDisplayedAllCommonEditorPageElements" description="На странице редактора должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:15 GST" duration-ms="4113" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonEditorPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:15 GST" name="cleanUp" finished-at="2025-11-18T17:29:15 GST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:15 GST" name="setUp" finished-at="2025-11-18T17:29:16 GST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedAllCommonEditorPageElements(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:16 GST" name="shouldBeDisplayedAllCommonEditorPageElements" description="На странице редактора должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:19 GST" duration-ms="3244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonEditorPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:19 GST" name="cleanUp" finished-at="2025-11-18T17:29:20 GST" duration-ms="681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:20 GST" name="setUp" finished-at="2025-11-18T17:29:20 GST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeDisplayedAllCommonEditorPageElements(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:20 GST" name="shouldBeDisplayedAllCommonEditorPageElements" description="На странице редактора должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:24 GST" duration-ms="4215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonEditorPageElements -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:24 GST" name="cleanUp" finished-at="2025-11-18T17:29:24 GST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:24 GST" name="setUp" finished-at="2025-11-18T17:29:24 GST" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeSuccessPublicationWithValidData(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:24 GST" name="shouldBeSuccessPublicationWithValidData" description="После ввода валидных данных должна быть произведена публикация статьи" data-provider="driverData" finished-at="2025-11-18T17:29:29 GST" duration-ms="4830" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessPublicationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:29 GST" name="cleanUp" finished-at="2025-11-18T17:29:29 GST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:29 GST" name="setUp" finished-at="2025-11-18T17:29:30 GST" duration-ms="227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeSuccessPublicationWithValidData(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:30 GST" name="shouldBeSuccessPublicationWithValidData" description="После ввода валидных данных должна быть произведена публикация статьи" data-provider="driverData" finished-at="2025-11-18T17:29:33 GST" duration-ms="3869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessPublicationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:33 GST" name="cleanUp" finished-at="2025-11-18T17:29:34 GST" duration-ms="653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:34 GST" name="setUp" finished-at="2025-11-18T17:29:34 GST" duration-ms="225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="shouldBeSuccessPublicationWithValidData(ui.DriverType)[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:34 GST" name="shouldBeSuccessPublicationWithValidData" description="После ввода валидных данных должна быть произведена публикация статьи" data-provider="driverData" finished-at="2025-11-18T17:29:39 GST" duration-ms="5019" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeSuccessPublicationWithValidData -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.EditorPagePositiveTests@7b7b3edb]" started-at="2025-11-18T17:29:39 GST" name="cleanUp" finished-at="2025-11-18T17:29:39 GST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.EditorPagePositiveTests -->
+      <class name="ui.HomePagePositiveTests">
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:39 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization" description="На домашней странице после авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:43 GST" duration-ms="3834" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:43 GST" name="cleanUp" finished-at="2025-11-18T17:29:43 GST" duration-ms="124" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:43 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization" description="На домашней странице после авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:47 GST" duration-ms="3340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:47 GST" name="cleanUp" finished-at="2025-11-18T17:29:47 GST" duration-ms="741" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:47 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithAuthorization" description="На домашней странице после авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:51 GST" duration-ms="3888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:51 GST" name="cleanUp" finished-at="2025-11-18T17:29:51 GST" duration-ms="99" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:51 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization" description="На домашней странице до авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:54 GST" duration-ms="2924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:54 GST" name="cleanUp" finished-at="2025-11-18T17:29:54 GST" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:54 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization" description="На домашней странице до авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:29:57 GST" duration-ms="2422" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:57 GST" name="cleanUp" finished-at="2025-11-18T17:29:58 GST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:29:58 GST" name="shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization" description="На домашней странице до авторизации должны быть отображены все основные элементы" data-provider="driverData" finished-at="2025-11-18T17:30:00 GST" duration-ms="2945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedAllCommonHomePageElementsWithoutAuthorization -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:00 GST" name="cleanUp" finished-at="2025-11-18T17:30:01 GST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedArticlePageAfterClickOnArticleTitle(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:01 GST" name="shouldBeDisplayedArticlePageAfterClickOnArticleTitle" description="После клика на заголовок статьи должна быть отображена страница статьи" data-provider="driverData" finished-at="2025-11-18T17:30:04 GST" duration-ms="3512" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedArticlePageAfterClickOnArticleTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:04 GST" name="cleanUp" finished-at="2025-11-18T17:30:04 GST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedArticlePageAfterClickOnArticleTitle(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:04 GST" name="shouldBeDisplayedArticlePageAfterClickOnArticleTitle" description="После клика на заголовок статьи должна быть отображена страница статьи" data-provider="driverData" finished-at="2025-11-18T17:30:08 GST" duration-ms="3369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedArticlePageAfterClickOnArticleTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:08 GST" name="cleanUp" finished-at="2025-11-18T17:30:08 GST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedArticlePageAfterClickOnArticleTitle(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:08 GST" name="shouldBeDisplayedArticlePageAfterClickOnArticleTitle" description="После клика на заголовок статьи должна быть отображена страница статьи" data-provider="driverData" finished-at="2025-11-18T17:30:12 GST" duration-ms="3553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedArticlePageAfterClickOnArticleTitle -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:12 GST" name="cleanUp" finished-at="2025-11-18T17:30:12 GST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedJsTabAfterClickOnJsTag(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:12 GST" name="shouldBeDisplayedJsTabAfterClickOnJsTag" description="После клика по тэгу должна быть отображена новая вкладка" data-provider="driverData" finished-at="2025-11-18T17:30:15 GST" duration-ms="2976" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedJsTabAfterClickOnJsTag -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:15 GST" name="cleanUp" finished-at="2025-11-18T17:30:15 GST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedJsTabAfterClickOnJsTag(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:15 GST" name="shouldBeDisplayedJsTabAfterClickOnJsTag" description="После клика по тэгу должна быть отображена новая вкладка" data-provider="driverData" finished-at="2025-11-18T17:30:17 GST" duration-ms="2496" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedJsTabAfterClickOnJsTag -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:17 GST" name="cleanUp" finished-at="2025-11-18T17:30:18 GST" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedJsTabAfterClickOnJsTag(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:18 GST" name="shouldBeDisplayedJsTabAfterClickOnJsTag" description="После клика по тэгу должна быть отображена новая вкладка" data-provider="driverData" finished-at="2025-11-18T17:30:21 GST" duration-ms="2992" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedJsTabAfterClickOnJsTag -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:21 GST" name="cleanUp" finished-at="2025-11-18T17:30:21 GST" duration-ms="94" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnSignInLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:21 GST" name="shouldBeDisplayedSignInPageAfterClickOnSignInLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:23 GST" duration-ms="2339" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnSignInLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:23 GST" name="cleanUp" finished-at="2025-11-18T17:30:23 GST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnSignInLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:23 GST" name="shouldBeDisplayedSignInPageAfterClickOnSignInLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:26 GST" duration-ms="2441" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnSignInLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:26 GST" name="cleanUp" finished-at="2025-11-18T17:30:26 GST" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignInPageAfterClickOnSignInLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:26 GST" name="shouldBeDisplayedSignInPageAfterClickOnSignInLink" description="После клика на ссылку авторизации должна быть отображена страница авторизации" data-provider="driverData" finished-at="2025-11-18T17:30:29 GST" duration-ms="2388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignInPageAfterClickOnSignInLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:29 GST" name="cleanUp" finished-at="2025-11-18T17:30:29 GST" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:29 GST" name="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:30:31 GST" duration-ms="2368" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnSignUpLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:31 GST" name="cleanUp" finished-at="2025-11-18T17:30:31 GST" duration-ms="87" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:31 GST" name="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:30:34 GST" duration-ms="2529" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnSignUpLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:34 GST" name="cleanUp" finished-at="2025-11-18T17:30:35 GST" duration-ms="671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink(ui.DriverType)[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:35 GST" name="shouldBeDisplayedSignUpPageAfterClickOnSignUpLink" description="После клика на ссылку регистрации должна быть отображена страница регистрации" data-provider="driverData" finished-at="2025-11-18T17:30:37 GST" duration-ms="2508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeDisplayedSignUpPageAfterClickOnSignUpLink -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.HomePagePositiveTests@6b474074]" started-at="2025-11-18T17:30:37 GST" name="cleanUp" finished-at="2025-11-18T17:30:37 GST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.HomePagePositiveTests -->
+      <class name="api.PostUsersTests">
+        <test-method is-config="true" signature="setAll()[pri:0, instance:api.PostUsersTests@3104351d]" started-at="2025-11-18T17:28:13 GST" name="setAll" finished-at="2025-11-18T17:28:13 GST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setAll -->
+        <test-method signature="registerWithInvalidDataReturnsError(api.PostUsersBody)[pri:0, instance:api.PostUsersTests@3104351d]" started-at="2025-11-18T17:28:13 GST" name="registerWithInvalidDataReturnsError" description="Регистрация с невалидными данными возвращает ошибку" data-provider="data" finished-at="2025-11-18T17:28:13 GST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostUsersBody(user=PostUsers(email=nathalie.hilpert@yahoo.com, password=if4nc2rsvmf, username=null))]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithInvalidDataReturnsError -->
+        <test-method signature="registerWithInvalidDataReturnsError(api.PostUsersBody)[pri:0, instance:api.PostUsersTests@3104351d]" started-at="2025-11-18T17:28:13 GST" name="registerWithInvalidDataReturnsError" description="Регистрация с невалидными данными возвращает ошибку" data-provider="data" finished-at="2025-11-18T17:28:13 GST" duration-ms="229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostUsersBody(user=PostUsers(email=fredia.pagac@yahoo.com, password=null, username=yadira.crist))]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithInvalidDataReturnsError -->
+        <test-method signature="registerWithInvalidDataReturnsError(api.PostUsersBody)[pri:0, instance:api.PostUsersTests@3104351d]" started-at="2025-11-18T17:28:13 GST" name="registerWithInvalidDataReturnsError" description="Регистрация с невалидными данными возвращает ошибку" data-provider="data" finished-at="2025-11-18T17:28:14 GST" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[PostUsersBody(user=PostUsers(email=null, password=k1rq5pph, username=ronny.hudson))]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithInvalidDataReturnsError -->
+        <test-method signature="registerWithValidDataReturnsCreated()[pri:0, instance:api.PostUsersTests@3104351d]" started-at="2025-11-18T17:28:14 GST" name="registerWithValidDataReturnsCreated" description="Успешная регистрация с валидными данными" finished-at="2025-11-18T17:28:14 GST" duration-ms="257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerWithValidDataReturnsCreated -->
+      </class> <!-- api.PostUsersTests -->
+      <class name="ui.SignUpPageNegativeTests">
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:30 GST" name="shouldNotBeEnabledSignUpButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:32 GST" duration-ms="2415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:32 GST" name="cleanUp" finished-at="2025-11-18T17:31:32 GST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:32 GST" name="shouldNotBeEnabledSignUpButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:34 GST" duration-ms="2003" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:34 GST" name="cleanUp" finished-at="2025-11-18T17:31:35 GST" duration-ms="809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutEmail(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:35 GST" name="shouldNotBeEnabledSignUpButtonWithoutEmail" description="Если не введена электронная почта, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:38 GST" duration-ms="2635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutEmail -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:38 GST" name="cleanUp" finished-at="2025-11-18T17:31:38 GST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:38 GST" name="shouldNotBeEnabledSignUpButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:40 GST" duration-ms="2481" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:40 GST" name="cleanUp" finished-at="2025-11-18T17:31:40 GST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:40 GST" name="shouldNotBeEnabledSignUpButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:42 GST" duration-ms="1905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:42 GST" name="cleanUp" finished-at="2025-11-18T17:31:43 GST" duration-ms="628" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutPassword(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:43 GST" name="shouldNotBeEnabledSignUpButtonWithoutPassword" description="Если не введен пароль, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:45 GST" duration-ms="2585" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutPassword -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:45 GST" name="cleanUp" finished-at="2025-11-18T17:31:45 GST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutUsername(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:45 GST" name="shouldNotBeEnabledSignUpButtonWithoutUsername" description="Если не введено имя пользователя, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:48 GST" duration-ms="2411" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CHROME]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutUsername -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:48 GST" name="cleanUp" finished-at="2025-11-18T17:31:48 GST" duration-ms="70" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutUsername(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:48 GST" name="shouldNotBeEnabledSignUpButtonWithoutUsername" description="Если не введено имя пользователя, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:50 GST" duration-ms="2056" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FIREFOX]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutUsername -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:50 GST" name="cleanUp" finished-at="2025-11-18T17:31:51 GST" duration-ms="678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method signature="shouldNotBeEnabledSignUpButtonWithoutUsername(ui.DriverType)[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:51 GST" name="shouldNotBeEnabledSignUpButtonWithoutUsername" description="Если не введено имя пользователя, должна быть заблокирована кнопка регистрации" data-provider="driverData" finished-at="2025-11-18T17:31:53 GST" duration-ms="2500" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[EDGE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldNotBeEnabledSignUpButtonWithoutUsername -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:ui.SignUpPageNegativeTests@6a9d5dff]" started-at="2025-11-18T17:31:53 GST" name="cleanUp" finished-at="2025-11-18T17:31:53 GST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- ui.SignUpPageNegativeTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
