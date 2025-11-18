@@ -1,1 +1,0 @@
-{"uuid":"fa82d37d-365a-4b81-ae92-d23802a8cc8e","name":"api.GetArticlesTests","children":["63855e0c-afce-45dd-a6fb-848e4acec3a9"],"befores":[{"name":"setAll","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1763482740634,"stop":1763482740634}],"afters":[],"start":1763482468130,"stop":1763482743245}
