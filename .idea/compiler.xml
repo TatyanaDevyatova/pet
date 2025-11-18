@@ -8,7 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="DiplomToKotlin-1" />
         <module name="yandex-kotlin-diplom" />
-        <module name="trainee" />
+        <module name="pet" />
       </profile>
     </annotationProcessing>
   </component>
