@@ -2,8 +2,8 @@
 out/
 !**/src/main/**/out/
 !**/src/test/**/out/
-.idea
-.allure
+.idea/
+.allure/
 target/
 allure-results/
 
